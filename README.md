@@ -1,3 +1,5 @@
+# Resolved: https://github.com/dotnet/runtime/issues/104001
+
 # ConditionalSelectReproduce
 
 Reproduce for the issue of JIT optimization for the `VectorT.ConditionalSelect` (particularly 128-bit) in comparison with `Sse41.BlendVariable`.
